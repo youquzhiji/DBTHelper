@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/chain_analysis">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="org.hydev.dbt.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/chain_analysis"
+        android:name="org.hydev.dbt.ui.chain_analysis.ChainAnalysisFragment"
+        android:label="@string/chain_analysis"
+        tools:layout="@layout/fragment_chain_analysis" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="org.hydev.dbt.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/safety_plan"
+        android:name="org.hydev.dbt.ui.safety_plan.SafetyPlanFragment"
+        android:label="@string/safety_plan"
+        tools:layout="@layout/fragment_safety_plan" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="org.hydev.dbt.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/mhfa_kits"
+        android:name="org.hydev.dbt.ui.mhfa_kits.MHFAKitsFragment"
+        android:label="@string/mhfa_kit"
+        tools:layout="@layout/fragment_mhfa_kits" />
 </navigation>
